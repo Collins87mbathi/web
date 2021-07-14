@@ -1,0 +1,46 @@
+.about-section {
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.about-section h3 {
+    margin: 1.5rem;
+}
+
+.pics img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in;
+}
+
+.pics img:hover {
+    transform: scale(1.1);
+}
+
+
+
+.about-gallery {
+display: grid;
+text-align: center;
+grid-gap: 20px;
+}
+
+
+@media screen and (min-width:600px) {
+    .about-gallery {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+@media screen and (min-width:992px) {
+    .about-gallery {
+        grid-template-columns:1fr 1fr 1fr;
+
+    }
+}

@@ -1,0 +1,59 @@
+.service-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: url(../images/hotels.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: center;
+    grid-gap: 20px;
+    text-align: center;
+    justify-content:center;
+}
+
+.services {
+   background-color: aqua; 
+   height: 300px;
+   width: 300px;
+   padding: 20px;
+   margin-top: 20px;
+   padding-bottom: 30px;
+   border-radius: 1rem;
+}
+
+.services p {
+    margin: 20px;
+}
+
+@media screen and (min-width:600px) {
+    .service-container {
+         grid-template-columns: 1fr 1fr;
+        
+    }
+    .services {
+        margin-left: 4rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .service-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 100vh;
+    
+   }
+   .services {
+       margin-left: 4rem;
+   }
+}
+
+
+
+/*display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 6rem 6rem;
+padding: 10px;
+*/

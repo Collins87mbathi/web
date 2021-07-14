@@ -1,0 +1,15 @@
+.footer {
+    text-align: center;
+    background-color: aqua;
+    font-size: 1.3rem;
+    
+}
+
+.linkss i {
+   margin: 1rem;
+   transition: all 0.5s ease-in-out;
+}
+
+.linkss i:hover {
+    color: bisque;
+}
